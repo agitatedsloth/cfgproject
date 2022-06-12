@@ -1,0 +1,53 @@
+.navbar{background-color:#FFFAF1;margin-bottom:3%;
+	float:left;overflow:hidden;
+padding-left:2%; padding-top:1%; padding-bottom:0.05%;display:run-in; 
+	font-family: 'Sulphur Point', sans-sarif; font-size:100%;text-align:left;
+  box-shadow: 3px 3px 4px 4px #FFFAF1 ; justify-content: center; width:100%;
+}
+
+body{
+  margin:0;
+}
+
+.logoimage{display:inline-flexbox;}
+.sheep{display:inline-flex; width:8%;border-radius:0.3rem;}
+
+.logoname{font-size:300%; display:inline-flex; padding-left:0%; 
+  align-items:center; padding-right:30%;color:#585858 }
+
+.navtext{padding-right:1%; color:#606060;font-size:120%; 
+  display:inline-flex; float:inline-flex;}
+.navicon{padding-right:1%;width:2.5%}
+
+body{background-image: url(images/background.jpg);background-size:fill; background-repeat:no-repeat; background-attachment: fixed;}
+
+.bigbox{width:100%; display:flex;justify-content:center;padding-bottom:5% }
+.bigpic{display:flex; align-items:center; width:60%; border-radius:0.3rem;max-width:450px}
+
+.products{width:100%; display:inline-block;justify-content:center;align-items:center;padding:5%;}
+.grid-item{display:inline-flex; width:30%;padding-left:1%;padding-right:1%; }
+
+.woolimages{size:10%; max-width:350px; width:100%; border-radius:0.3rem}
+.textgrid{display:inline-flex; width:30%;padding-left:1%;padding-right:1%; padding-bottom:5%}
+.description{font-family:'Sulphur Point', sans-sarif; color:#404040; font-style:normal; font-size:20px}
+
+.footer{background-color:#FFFAF1;box-shadow: 3px 3px 4px 4px #FFFAF1 ; justify-content: center;}
+  .footercontent{padding-left:10.5%;}
+
+.footerrow1{display:inline-flex; width:30%;padding-left:1%;padding-right:1%; }
+.footertext{font-family:'Sulphur Point', sans-sarif; color:#404040; font-size:18px; }
+
+.footerrow2{display:inline-flex; width:30%;padding-left:1%;padding-right:1%;}
+.contacticon1{display:flex; min-width:15%}
+.contacticon{display:flex; padding-left:10%; min-width:15%}
+.footerlinks{list-style:none; padding-left:0%;font-family:'Sulphur Point', sans-sarif; color:#404040;}
+
+.productlinks{text-decoration:none;}
+
+
+.title, .productname{text-align:left;font-family:'Sulphur Point', sans-sarif; color:#404040; font-size:60px;}
+
+.bigimages{border-radius:0.3rem; max-width:50%}
+.productdescription{max-width:65%}
+.producttext{font-family:'Sulphur Point', sans-sarif; color:#404040;font-size:18px;}
+.buttons{padding:0.5%;}
