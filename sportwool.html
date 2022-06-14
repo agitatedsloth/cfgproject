@@ -8,7 +8,7 @@
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap" rel="stylesheet"> 
-
+	    <title>Wool Hoo | Sport</title>
 <!--meta-->			
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,14 @@
             From: <a class="productlinks" href="https://needlepointjoint.com/pages/yarn">Needlepoint Joint</a></p>
     </div>
     
-    <p><button class="buttons" id="add" type="buttons"><image src="icons/bagplus.svg"> Add to Cart</button></p>
+    <p><button class="buttons" id="myBtn" type="buttons"><image src="icons/bagplus.svg"> Add to Cart</button>
+    <script>
+        document.getElementById("myBtn").addEventListener("click", myFunction);
+        
+        function myFunction() {
+          alert ("Added to cart");
+        }
+        </script></p>
     
     </div>
 
